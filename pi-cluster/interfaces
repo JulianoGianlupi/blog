@@ -4,8 +4,8 @@ auto lo
 iface lo inet loopback
 
 # dongle uplink
-auto eth1
-iface eth1 inet dhcp
+auto wlan0
+iface wlan0 inet dhcp
 
 # internal gateway
 auto eth0
